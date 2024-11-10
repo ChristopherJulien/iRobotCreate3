@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/create3_controller/create3_controller.egg-info
+writing ../../build/create3_controller/create3_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/create3_controller/create3_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/create3_controller/create3_controller.egg-info/entry_points.txt
+writing requirements to ../../build/create3_controller/create3_controller.egg-info/requires.txt
+writing top-level names to ../../build/create3_controller/create3_controller.egg-info/top_level.txt
+writing manifest file '../../build/create3_controller/create3_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/create3_controller/create3_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/create3_controller/create3_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/julien/create3_ws/build/create3_controller/build
+creating /home/julien/create3_ws/build/create3_controller/build/lib
+creating /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+copying create3_controller/undock_node.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+copying create3_controller/move_robot.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+copying create3_controller/__init__.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+copying create3_controller/dock_node.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+running install
+running install_lib
+creating /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/undock_node.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/move_robot.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/__init__.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/dock_node.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/undock_node.py to undock_node.cpython-310.pyc
+byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/move_robot.py to move_robot.cpython-310.pyc
+byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/dock_node.py to dock_node.cpython-310.pyc
+running install_data
+creating /home/julien/create3_ws/install/create3_controller/share/ament_index
+creating /home/julien/create3_ws/install/create3_controller/share/ament_index/resource_index
+creating /home/julien/create3_ws/install/create3_controller/share/ament_index/resource_index/packages
+copying resource/create3_controller -> /home/julien/create3_ws/install/create3_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/julien/create3_ws/install/create3_controller/share/create3_controller
+creating /home/julien/create3_ws/install/create3_controller/share/create3_controller/config
+copying config/goal.yaml -> /home/julien/create3_ws/install/create3_controller/share/create3_controller/config
+running install_egg_info
+Copying ../../build/create3_controller/create3_controller.egg-info to /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dock_node script to /home/julien/create3_ws/install/create3_controller/lib/create3_controller
+Installing move_robot script to /home/julien/create3_ws/install/create3_controller/lib/create3_controller
+Installing undock_node script to /home/julien/create3_ws/install/create3_controller/lib/create3_controller
+writing list of installed files to '/home/julien/create3_ws/build/create3_controller/install.log'

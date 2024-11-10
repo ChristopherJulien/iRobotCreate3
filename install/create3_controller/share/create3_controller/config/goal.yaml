@@ -1,0 +1,6 @@
+# config/goal.yaml
+
+goal_position:
+  x: 2.0
+  y: 3.0
+  theta: 0.0

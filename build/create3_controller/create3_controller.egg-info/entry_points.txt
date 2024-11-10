@@ -1,0 +1,5 @@
+[console_scripts]
+dock_node = create3_controller.dock_node:main
+move_robot = create3_controller.move_robot:main
+undock_node = create3_controller.undock_node:main
+

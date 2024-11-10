@@ -1,0 +1,47 @@
+[0.997s] Invoking command in '/home/julien/create3_ws/src/create3_controller': PYTHONPATH=/home/julien/create3_ws/build/create3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/create3_controller build --build-base /home/julien/create3_ws/build/create3_controller/build install --record /home/julien/create3_ws/build/create3_controller/install.log --single-version-externally-managed install_data
+[1.274s] running egg_info
+[1.275s] creating ../../build/create3_controller/create3_controller.egg-info
+[1.275s] writing ../../build/create3_controller/create3_controller.egg-info/PKG-INFO
+[1.276s] writing dependency_links to ../../build/create3_controller/create3_controller.egg-info/dependency_links.txt
+[1.276s] writing entry points to ../../build/create3_controller/create3_controller.egg-info/entry_points.txt
+[1.276s] writing requirements to ../../build/create3_controller/create3_controller.egg-info/requires.txt
+[1.276s] writing top-level names to ../../build/create3_controller/create3_controller.egg-info/top_level.txt
+[1.276s] writing manifest file '../../build/create3_controller/create3_controller.egg-info/SOURCES.txt'
+[1.278s] reading manifest file '../../build/create3_controller/create3_controller.egg-info/SOURCES.txt'
+[1.279s] writing manifest file '../../build/create3_controller/create3_controller.egg-info/SOURCES.txt'
+[1.279s] running build
+[1.279s] running build_py
+[1.279s] creating /home/julien/create3_ws/build/create3_controller/build
+[1.279s] creating /home/julien/create3_ws/build/create3_controller/build/lib
+[1.279s] creating /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+[1.279s] copying create3_controller/undock_node.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+[1.279s] copying create3_controller/move_robot.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+[1.280s] copying create3_controller/__init__.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+[1.280s] copying create3_controller/dock_node.py -> /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller
+[1.280s] running install
+[1.280s] running install_lib
+[1.281s] creating /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+[1.281s] copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/undock_node.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+[1.281s] copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/move_robot.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+[1.281s] copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/__init__.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+[1.281s] copying /home/julien/create3_ws/build/create3_controller/build/lib/create3_controller/dock_node.py -> /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller
+[1.282s] byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/undock_node.py to undock_node.cpython-310.pyc
+[1.282s] byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/move_robot.py to move_robot.cpython-310.pyc
+[1.283s] byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/__init__.py to __init__.cpython-310.pyc
+[1.283s] byte-compiling /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller/dock_node.py to dock_node.cpython-310.pyc
+[1.284s] running install_data
+[1.284s] creating /home/julien/create3_ws/install/create3_controller/share/ament_index
+[1.284s] creating /home/julien/create3_ws/install/create3_controller/share/ament_index/resource_index
+[1.284s] creating /home/julien/create3_ws/install/create3_controller/share/ament_index/resource_index/packages
+[1.284s] copying resource/create3_controller -> /home/julien/create3_ws/install/create3_controller/share/ament_index/resource_index/packages
+[1.284s] copying package.xml -> /home/julien/create3_ws/install/create3_controller/share/create3_controller
+[1.284s] creating /home/julien/create3_ws/install/create3_controller/share/create3_controller/config
+[1.284s] copying config/goal.yaml -> /home/julien/create3_ws/install/create3_controller/share/create3_controller/config
+[1.284s] running install_egg_info
+[1.286s] Copying ../../build/create3_controller/create3_controller.egg-info to /home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages/create3_controller-0.0.0-py3.10.egg-info
+[1.287s] running install_scripts
+[1.309s] Installing dock_node script to /home/julien/create3_ws/install/create3_controller/lib/create3_controller
+[1.309s] Installing move_robot script to /home/julien/create3_ws/install/create3_controller/lib/create3_controller
+[1.310s] Installing undock_node script to /home/julien/create3_ws/install/create3_controller/lib/create3_controller
+[1.310s] writing list of installed files to '/home/julien/create3_ws/build/create3_controller/install.log'
+[1.333s] Invoked command in '/home/julien/create3_ws/src/create3_controller' returned '0': PYTHONPATH=/home/julien/create3_ws/build/create3_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julien/create3_ws/install/create3_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/create3_controller build --build-base /home/julien/create3_ws/build/create3_controller/build install --record /home/julien/create3_ws/build/create3_controller/install.log --single-version-externally-managed install_data

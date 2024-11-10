@@ -1,0 +1,17 @@
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control//launch/include/control.py
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control//config/control.yaml
+/home/julien/create3_ws/install/irobot_create_control/share/ament_index/resource_index/package_run_dependencies/irobot_create_control
+/home/julien/create3_ws/install/irobot_create_control/share/ament_index/resource_index/parent_prefix_path/irobot_create_control
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.sh
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/ament_prefix_path.dsv
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/path.sh
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/environment/path.dsv
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.bash
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.sh
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.zsh
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/local_setup.dsv
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/package.dsv
+/home/julien/create3_ws/install/irobot_create_control/share/ament_index/resource_index/packages/irobot_create_control
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig.cmake
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/cmake/irobot_create_controlConfig-version.cmake
+/home/julien/create3_ws/install/irobot_create_control/share/irobot_create_control/package.xml
