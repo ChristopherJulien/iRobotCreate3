@@ -48,31 +48,37 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    cd ~/
-   git clone https://github.com/your_username/create3_navigation.git```
+   git clone https://github.com/your_username/create3_navigation.git
+   ```
 
 2. **Set Up the Workspace:**
 
    ```bash
-  mkdir -p ~/create3_ws/src
-  cd ~/create3_ws/src
-  git clone https://github.com/iRobotEducation/create3_sim.git -b humble
-  cp -r ~/create3_navigation/create3_controller ./```
+   mkdir -p ~/create3_ws/src
+   cd ~/create3_ws/src
+   git clone https://github.com/iRobotEducation/create3_sim.git -b humble
+   cp -r ~/create3_navigation/create3_controller ./
+   ```
 
 3. **Install Dependencies:**
 
    ```bash
-  cd ~/create3_ws/
-  rosdep update
-  rosdep install --from-paths src --ignore-src -r -y```
+   cd ~/create3_ws/
+   rosdep update
+   rosdep install --from-paths src --ignore-src -r -y
+   ```
 
 4. **Build the Workspace:**
+
    ```bash
-  colcon build```
+   colcon build
+   ```
 
 5. **Source the Workspace:**
-   ```bash
-  source install/setup.bash```
 
+   ```bash
+   source install/setup.bash
+   ```
 
 ## **Project Structure**
 
@@ -91,6 +97,44 @@ create3_ws/
 ├── build/
 └── log/
 
-
-
 ## **Nodes Description**
+
+### move_robot Node
+
+#### Purpose:
+The `move_robot` node is responsible for moving the iRobot Create-3 robot from its starting position to a specified goal position using a predefined trajectory pattern.
+
+#### Key Features:
+- Reads the goal position from a YAML configuration file.
+- Computes a series of waypoints based on a creative pattern.
+- Controls the robot's linear and angular velocities to navigate through the waypoints.
+- Implements simple proportional control for rotation and movement.
+
+#### Parameters:
+- `goal_file` (string): Path to the YAML file containing the goal position. Defaults to `config/goal.yaml` within the package if not specified.
+
+#### How It Works:
+1. **Initialization**:
+   - Subscribes to `/odom` to receive odometry data.
+   - Publishes to `/cmd_vel` to control robot velocities.
+   - Reads the goal position from the YAML file.
+2. **Trajectory Planning**:
+   - Generates waypoints by scaling a predefined pattern with the goal position.
+   - Stores the waypoints in a list to be sequentially followed.
+3. **Movement Control**:
+   - In each timer callback, computes the angle and distance to the next waypoint.
+   - Rotates towards the waypoint if not facing it.
+   - Moves forward when aligned with the waypoint.
+   - Proceeds to the next waypoint upon reaching the current one.
+
+#### Running the Node:
+
+```bash
+ros2 run create3_controller move_robot --ros-args -p goal_file:="/path/to/goal.yaml"
+```
+
+## **Video Demonstration**
+A link to your video showcasing the robot's performance:
+
+Click the image above or [here](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) to watch the video.
+
