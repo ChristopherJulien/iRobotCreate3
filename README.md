@@ -1,10 +1,9 @@
 # **iRobot Create-3 Navigation Project**
 
-![iRobot Create-3](images/create3_banner.png)
-
 ## **Table of Contents**
 
 - [Introduction](#introduction)
+- [Video Demonstration](#video-demonstration)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
@@ -16,17 +15,19 @@
   - [Undocking the Robot](#undocking-the-robot)
   - [Running the move_robot Node](#running-the-move_robot-node)
 - [Results](#results)
-- [Extra Features](#extra-features)
-- [Video Demonstration](#video-demonstration)
-- [Contributing](#contributing)
-- [License](#license)
+
 - [Acknowledgements](#acknowledgements)
 
 ---
 
 ## **Introduction**
 
-This project demonstrates the autonomous navigation of the iRobot Create-3 robot in a simulated environment using ROS 2 and Gazebo. The robot undocks from its docking station, follows a creative trajectory from point A to point B based on waypoints, and optionally returns to dock.
+This project demonstrates the autonomous navigation of the iRobot Create-3 robot in a simulated environment using ROS 2 and Gazebo. The robot undocks from its docking station, follows a pattern trajectory from point A to point B based on waypoints, and returns to dock.
+
+## **Video Demonstration**
+A link to your video showcasing the robot's performance:
+
+Click the image above or [here](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) to watch the video.
 
 ## **Prerequisites**
 
@@ -135,8 +136,5 @@ The `move_robot` node is responsible for moving the iRobot Create-3 robot from i
 ros2 run create3_controller move_robot --ros-args -p goal_file:="/path/to/goal.yaml"
 ```
 
-## **Video Demonstration**
-A link to your video showcasing the robot's performance:
 
-Click the image above or [here](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) to watch the video.
 
