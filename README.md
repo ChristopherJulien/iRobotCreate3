@@ -13,7 +13,8 @@
 
 This project demonstrates the autonomous navigation of the iRobot Create-3 robot in a simulated environment using ROS 2 and Gazebo. The robot undocks, follows a waypoint trajectory, and returns to dock.
 
-![plot](./iRobotCreat3/sevensense-logo-large.png)
+![Sevensense Logo](images/sevensense-logo-large.png)
+
 
 ## **Prerequisites**
 
