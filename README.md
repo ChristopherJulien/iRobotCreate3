@@ -82,7 +82,8 @@ Before you begin, ensure you have met the following requirements:
 
 ## **Project Structure**
 
-create3_ws/
+ ```bash
+   create3_ws/
 ├── src/
 │   ├── create3_sim/                # iRobot Create-3 simulation packages
 │   └── create3_controller/         # Your custom control package
@@ -96,6 +97,7 @@ create3_ws/
 ├── install/
 ├── build/
 └── log/
+   ```
 
 ## **Nodes Description**
 
