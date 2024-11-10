@@ -76,6 +76,7 @@ This project demonstrates the autonomous navigation of the iRobot Create-3 robot
    ```
 
 ## **Video Demonstration**
+![](images/iRobotCreate3.gif)
 
 Watch the robot in action: [Video Link](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
