@@ -48,4 +48,49 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    cd ~/
-   git clone https://github.com/your_username/create3_navigation.git
+   git clone https://github.com/your_username/create3_navigation.git```
+
+2. **Set Up the Workspace:**
+
+   ```bash
+  mkdir -p ~/create3_ws/src
+  cd ~/create3_ws/src
+  git clone https://github.com/iRobotEducation/create3_sim.git -b humble
+  cp -r ~/create3_navigation/create3_controller ./```
+
+3. **Install Dependencies:**
+
+   ```bash
+  cd ~/create3_ws/
+  rosdep update
+  rosdep install --from-paths src --ignore-src -r -y```
+
+4. **Build the Workspace:**
+   ```bash
+  colcon build```
+
+5. **Source the Workspace:**
+   ```bash
+  source install/setup.bash```
+
+
+## **Project Structure**
+
+create3_ws/
+├── src/
+│   ├── create3_sim/                # iRobot Create-3 simulation packages
+│   └── create3_controller/         # Your custom control package
+│       ├── config/
+│       │   └── goal.yaml           # Configuration file for goal positions
+│       ├── launch/
+│       │   └── move_robot.launch.py # Optional launch file
+│       ├── scripts/
+│       │   └── move_robot.py       # Script for moving the robot
+│       └── package.xml
+├── install/
+├── build/
+└── log/
+
+
+
+## **Nodes Description**
