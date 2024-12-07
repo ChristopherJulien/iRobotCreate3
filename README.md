@@ -1,3 +1,4 @@
+![Sevensense Logo](images/sevensense-logo-large.png)
 # **iRobot Create-3 Navigation Project**
 
 ## **Table of Contents**
@@ -12,8 +13,6 @@
 ## **Introduction**
 
 This project demonstrates the autonomous navigation of the iRobot Create-3 in a simulated environment using ROS 2 and Gazebo. The robot undocks, follows waypoint to make seven-sense logo. Point B  is the last waypont and is set in the config/goal.yaml. The last waypoint on the top-right corner of the logo and it goes back to its starting location.
-
-![Sevensense Logo](images/sevensense-logo-large.png)
 
 
 ## **Prerequisites**
