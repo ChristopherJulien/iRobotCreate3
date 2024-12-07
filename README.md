@@ -1,6 +1,5 @@
-![Sevensense Logo](images/sevensense-logo-large.png)
 # **iRobot Create-3 Navigation Project**
-
+![Sevensense Logo](images/sevensense-logo-large.png)
 ## **Table of Contents**
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
